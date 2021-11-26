@@ -4,13 +4,13 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 
-namespace Extensions.Net
+namespace ZarlosExtensions.Net.ArrayEx
 {
     public static partial class ArrayExtensions
     {
 
         public static string ToASCII(this byte[] arrBytes)
-        {
+        {            
             return Encoding.ASCII.GetString(arrBytes);
         }
 

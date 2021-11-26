@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Net", "ZarlosExtensions.Net\ZarlosExtensions.Net.csproj", "{09A6B0B6-F93A-432B-8DD5-63C21CE03FF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarlosExtensions.Net.ASP", "ZarlosExtensions.Net.ASP\ZarlosExtensions.Net.ASP.csproj", "{D4ECE6B8-F212-4697-8BE5-55983A01F3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarlosExtensions.Net.Serilog", "ZarlosExtensions.Net.Serilog\ZarlosExtensions.Net.Serilog.csproj", "{611B181D-2430-4469-B6E0-FF2EF5BFD4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarlosExtensions.Net.SourceGenerator", "ZarlosExtensions.Net.SourceGenerator\ZarlosExtensions.Net.SourceGenerator.csproj", "{CB9E0ABA-A3D9-4D63-A258-94EBB023A22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarlosExtensions.Net.Attributes", "ZarlosExtensions.Net.Attributes\ZarlosExtensions.Net.Attributes.csproj", "{8F9C0672-04A5-4531-8659-699CF61D59EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarlosExtensions.Net.SourceGenerator.Extensions", "ZarlosExtensions.Net.SourceGenerator.Extensions\ZarlosExtensions.Net.SourceGenerator.Extensions.csproj", "{747F7132-95B0-4ADC-8002-A15D702A6307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09A6B0B6-F93A-432B-8DD5-63C21CE03FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A6B0B6-F93A-432B-8DD5-63C21CE03FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A6B0B6-F93A-432B-8DD5-63C21CE03FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A6B0B6-F93A-432B-8DD5-63C21CE03FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4ECE6B8-F212-4697-8BE5-55983A01F3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4ECE6B8-F212-4697-8BE5-55983A01F3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4ECE6B8-F212-4697-8BE5-55983A01F3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4ECE6B8-F212-4697-8BE5-55983A01F3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611B181D-2430-4469-B6E0-FF2EF5BFD4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611B181D-2430-4469-B6E0-FF2EF5BFD4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611B181D-2430-4469-B6E0-FF2EF5BFD4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611B181D-2430-4469-B6E0-FF2EF5BFD4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB9E0ABA-A3D9-4D63-A258-94EBB023A22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9E0ABA-A3D9-4D63-A258-94EBB023A22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9E0ABA-A3D9-4D63-A258-94EBB023A22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9E0ABA-A3D9-4D63-A258-94EBB023A22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9C0672-04A5-4531-8659-699CF61D59EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9C0672-04A5-4531-8659-699CF61D59EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9C0672-04A5-4531-8659-699CF61D59EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9C0672-04A5-4531-8659-699CF61D59EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747F7132-95B0-4ADC-8002-A15D702A6307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747F7132-95B0-4ADC-8002-A15D702A6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747F7132-95B0-4ADC-8002-A15D702A6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747F7132-95B0-4ADC-8002-A15D702A6307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25786947-D908-41DA-9514-1F1FD05141D0}
+	EndGlobalSection
+EndGlobal

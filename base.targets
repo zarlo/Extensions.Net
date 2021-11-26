@@ -1,0 +1,9 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <PropertyGroup Condition=" '$(TargetFramework)' == 'NET' and '$(TargetFramework)' != 'NETCOREAPP' and '$(TargetFramework)' != 'NETCOREAPP3_1'">
+        <DefineConstants>SOURCEGENERATOR</DefineConstants>
+        <DefineConstants>NET5PLUSS</DefineConstants>
+    </PropertyGroup>
+    
+
+</Project>
