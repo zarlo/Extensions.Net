@@ -10,7 +10,7 @@ namespace ZarlosExtensions.Net.ArrayEx
 
         public static byte[] ToBytes(this char[] arrBytes)
         {            
-            return arrBytes.SelectMany(i =>  char.ToString(i).ToUTF8Bytes()).ToArray();
+            return new String(arrBytes).ToUTF8Bytes();
         }
 
 
